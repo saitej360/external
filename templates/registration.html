@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html >
+<head>    
+<title>registration</title>
+</head>
+<body>
+    <input id="u" placeholder="username">
+    <input id="p" placeholder="password">
+    <button onclick="r()">registration</button>
+    <script>
+        function r(){
+            localStorage.u=u.value;
+            localStorage.p=p.value;
+            alert("registered");
+        }
+    </script>
+    <a href="login.html">login</a>
+</body>
+</html>

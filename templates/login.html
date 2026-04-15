@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+<head>    
+<title>login</title>
+</head>
+<body>
+    <input id="u" placeholder="username">
+    <input id="p" placeholder="password">
+    <button onclick="l()">login</button>
+    <script>
+        function l(){
+            if(u.value==localStorage.u && p.value==localStorage.p)
+        {
+            location="home.html";
+        }
+        else{
+            alert("wrong");
+        }
+        }
+    </script>
+    <a href="registration.html">registration</a>
+</body>
+</html>
